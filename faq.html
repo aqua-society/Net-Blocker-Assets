@@ -1,0 +1,1725 @@
+<html lang="en" class="mdl-js">
+<!-- Copyright 2017 Nishant Srivastava
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License. -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="NetBlocker Privacy Policy">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="copyright" content="Aqua SOciety">
+    <title>NetBlocker FAQ</title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="">
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.indigo-blue.min.css"
+          integrity="sha256-OKbH0cJaPdPQEySJxelp4+ITDr/pXIsvVhMU58ki7cM=" crossorigin="anonymous">
+
+    <style>
+        html,
+        body {
+            font-family: 'Roboto', 'Helvetica', sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        strong {
+            font-size: 18px;
+            padding-top: 12px;
+        }
+        em {
+            font-size: 14px;
+            color: #282525;
+            background: white;
+            padding: 5px;
+        }
+
+        p {
+            text-align: justify;
+        }
+        .mdl-appg .mdl-layout__header-row {
+            padding-left: 40px;
+        }
+
+        .mdl-appg .mdl-layout.is-small-screen .mdl-layout__header-row h3 {
+            font-size: inherit;
+        }
+
+        .mdl-appg .mdl-layout__tab-bar-button {
+            display: none;
+        }
+
+        .mdl-appg .mdl-layout.is-small-screen .mdl-layout__tab-bar .mdl-button {
+            display: none;
+        }
+
+        .mdl-appg .mdl-layout:not(.is-small-screen) .mdl-layout__tab-bar,
+        .mdl-appg .mdl-layout:not(.is-small-screen) .mdl-layout__tab-bar-container {
+            overflow: visible;
+        }
+
+        .mdl-appg .mdl-layout__tab-bar-container {
+            height: 64px;
+        }
+
+        .mdl-appg .mdl-layout__tab-bar {
+            padding: 0;
+            padding-left: 16px;
+            box-sizing: border-box;
+            height: 100%;
+            width: 100%;
+        }
+
+        .mdl-appg .mdl-layout__tab-bar .mdl-layout__tab {
+            height: 64px;
+            line-height: 64px;
+        }
+
+        .mdl-appg .mdl-layout__tab-bar .mdl-layout__tab.is-active::after {
+            background-color: white;
+            height: 4px;
+        }
+
+        .mdl-appg main>.mdl-layout__tab-panel {
+            padding: 8px;
+        }
+
+        .mdl-appg .mdl-card {
+            height: auto;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+        }
+
+        .mdl-appg .mdl-card>* {
+            height: auto;
+        }
+
+        .mdl-appg .mdl-card .mdl-card__supporting-text {
+            margin: 40px;
+            -webkit-flex-grow: 1;
+            -ms-flex-positive: 1;
+            flex-grow: 1;
+            padding: 0;
+            color: inherit;
+            width: calc(100% - 80px);
+        }
+
+        .mdl-appg.mdl-appg .mdl-card__supporting-text h4 {
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .mdl-appg .mdl-card__actions {
+            margin: 0;
+            padding: 4px 40px;
+            color: inherit;
+        }
+
+        .mdl-appg .mdl-card__actions a {
+            color: #00BCD4;
+            margin: 0;
+        }
+
+        .mdl-appg .mdl-card__actions a:hover,
+        .mdl-appg .mdl-card__actions a:active {
+            color: inherit;
+            background-color: transparent;
+        }
+
+        .mdl-appg .mdl-card__supporting-text+.mdl-card__actions {
+            border-top: 1px solid rgba(0, 0, 0, 0.12);
+        }
+
+        .mdl-appg #add {
+            position: absolute;
+            background-color: white;
+            right: 40px;
+            top: 36px;
+            z-index: 999;
+        }
+
+        .mdl-appg .mdl-layout__content section:not(:last-of-type) {
+            position: relative;
+            margin-bottom: 48px;
+        }
+
+        .mdl-layout__content {
+            background-color: white;
+        }
+
+        #privacypolicy,
+        #edit {
+            background-color: whitesmoke;
+        }
+
+        .mdl-appg section.section--center {
+            max-width: 860px;
+        }
+
+        .mdl-appg #features section.section--center {
+            max-width: 620px;
+        }
+
+        .mdl-appg section>header {
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+        }
+
+        .mdl-appg section>.section__play-btn {
+            min-height: 200px;
+        }
+
+        .mdl-appg section>header>.material-icons {
+            font-size: 3rem;
+        }
+
+        .mdl-appg section>button {
+            position: absolute;
+            z-index: 99;
+            top: 8px;
+            right: 8px;
+        }
+
+        .mdl-appg section .section__circle {
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-justify-content: flex-start;
+            -ms-flex-pack: start;
+            justify-content: flex-start;
+            -webkit-flex-grow: 0;
+            -ms-flex-positive: 0;
+            flex-grow: 0;
+            -webkit-flex-shrink: 1;
+            -ms-flex-negative: 1;
+            flex-shrink: 1;
+        }
+
+        .mdl-appg section .section__text {
+            -webkit-flex-grow: 1;
+            -ms-flex-positive: 1;
+            flex-grow: 1;
+            -webkit-flex-shrink: 0;
+            -ms-flex-negative: 0;
+            flex-shrink: 0;
+            padding-top: 8px;
+        }
+
+        .mdl-appg section .section__text h5 {
+            font-size: inherit;
+            margin: 0;
+            margin-bottom: 0.5em;
+        }
+
+        .mdl-appg section .section__text a {
+            text-decoration: none;
+        }
+
+        .mdl-appg section .section__circle-container>.section__circle-container__circle {
+            width: 64px;
+            height: 64px;
+            border-radius: 32px;
+            margin: 8px 0;
+        }
+
+        .mdl-appg section.section--center .section__text:not(:last-child) {
+            border-bottom: 1px solid rgba(0, 0, 0, .13);
+        }
+
+        .mdl-appg .mdl-card .mdl-card__supporting-text>h3:first-child {
+            margin-bottom: 24px;
+        }
+
+        .mdl-appg #features section {
+            margin-bottom: 72px;
+        }
+
+        .mdl-appg #features h4,
+        #features h5 {
+            margin-bottom: 16px;
+        }
+
+        .mdl-appg .toc {
+            border-left: 4px solid #C1EEF4;
+            margin: 24px;
+            padding: 0;
+            padding-left: 8px;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+        }
+
+        .mdl-appg .toc h4 {
+            font-size: 0.9rem;
+            margin-top: 0;
+        }
+
+        .mdl-appg .toc a {
+            color: #4DD0E1;
+            text-decoration: none;
+            font-size: 16px;
+            line-height: 28px;
+            display: block;
+        }
+
+        .mdl-appg .mdl-menu__container {
+            z-index: 99;
+        }
+
+        .mdl-mini-footer__social-btn {
+            background-color: transparent;
+        }
+
+        .mdl-mini-footer__social-btn img {
+            height: 2em;
+        }
+
+        .page-wrap {
+            min-height: 100%;
+            /* equal to footer height */
+            margin-bottom: -60px;
+        }
+
+        .page-wrap:after {
+            content: "";
+            display: block;
+        }
+
+        .page-wrap:after,
+        footer.app-footer {
+            height: 60px;
+        }
+
+        .text-whitesmoke {
+            color: whitesmoke;
+        }
+
+        footer.app-footer {
+            padding-bottom: 4em;
+        }
+
+        footer.app-footer a {
+            color: rgb(49, 179, 222);
+        }
+
+        .heart-logo {
+            height: 1em;
+            padding: 2px;
+        }
+
+        .github-logo {
+            height: 40px;
+            margin: 8px 1px 8px 8px;
+        }
+
+        .thirdparty-logo {
+            height: 2em;
+            padding-right: 10px;
+        }
+
+        .footer-brand {
+            background-color: whitesmoke;
+        }
+
+        .footer-brand.center {
+            text-align: center;
+        }
+
+        .unstyle-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            padding-bottom: 10px;
+        }
+
+        .unstyle-list li {
+            display: inline;
+        }
+
+        #vueapp {
+            background-color: whitesmoke;
+        }
+
+        .hero-pattern-bg {
+            background-color: #0087d0;
+            background-image: url("data:image/svg+xml,%3Csvg width='304' height='304' viewBox='0 0 304 304' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M44.1 224c.463-2.282 2.48-4 4.9-4 2.76 0 5 2.24 5 5s-2.24 5-5 5c-2.42 0-4.437-1.718-4.9-4H0v-2h44.1zm160 48c.463-2.282 2.48-4 4.9-4 2.76 0 5 2.24 5 5s-2.24 5-5 5c-2.42 0-4.437-1.718-4.9-4H82v-2h122.1zm57.8-46c-.463 2.282-2.48 4-4.9 4-2.76 0-5-2.24-5-5s2.24-5 5-5c2.42 0 4.437 1.718 4.9 4H304v2h-42.1zm0 16c-.463 2.282-2.48 4-4.9 4-2.76 0-5-2.24-5-5s2.24-5 5-5c2.42 0 4.437 1.718 4.9 4H304v2h-42.1zm6.2-114c.463-2.282 2.48-4 4.9-4 2.76 0 5 2.24 5 5s-2.24 5-5 5c-2.42 0-4.437-1.718-4.9-4h-86.2c-.463 2.282-2.48 4-4.9 4-2.76 0-5-2.24-5-5s2.24-5 5-5c2.42 0 4.437 1.718 4.9 4h86.2zm-256-48c.463-2.282 2.48-4 4.9-4 2.76 0 5 2.24 5 5s-2.24 5-5 5c-2.42 0-4.437-1.718-4.9-4H0v-2h12.1zm185.8 34c-.463 2.282-2.48 4-4.9 4-2.76 0-5-2.24-5-5s2.24-5 5-5c2.42 0 4.437 1.718 4.9 4h86.2c.463-2.282 2.48-4 4.9-4 2.76 0 5 2.24 5 5s-2.24 5-5 5c-2.42 0-4.437-1.718-4.9-4h-86.2zM258 12.1c2.282.463 4 2.48 4 4.9 0 2.76-2.24 5-5 5s-5-2.24-5-5c0-2.42 1.718-4.437 4-4.9V0h2v12.1zm-64 208c2.282.463 4 2.48 4 4.9 0 2.76-2.24 5-5 5s-5-2.24-5-5c0-2.42 1.718-4.437 4-4.9v-54.2c-2.282-.463-4-2.48-4-4.9 0-2.76 2.24-5 5-5s5 2.24 5 5c0 2.42-1.718 4.437-4 4.9v54.2zm48-198.2c2.282-.463 4-2.48 4-4.9 0-2.76-2.24-5-5-5s-5 2.24-5 5c0 2.42 1.718 4.437 4 4.9V82h64v-2h-62V21.9zm16 16c2.282-.463 4-2.48 4-4.9 0-2.76-2.24-5-5-5s-5 2.24-5 5c0 2.42 1.718 4.437 4 4.9V66h48v-2h-46V37.9zm-128 96c2.282-.463 4-2.48 4-4.9 0-2.76-2.24-5-5-5s-5 2.24-5 5c0 2.42 1.718 4.437 4 4.9V210h16v10.1c-2.282.463-4 2.48-4 4.9 0 2.76 2.24 5 5 5s5-2.24 5-5c0-2.42-1.718-4.437-4-4.9V208h-16v-74.1zm-5.9-21.9c.463-2.282 2.48-4 4.9-4 2.76 0 5 2.24 5 5s-2.24 5-5 5c-2.42 0-4.437-1.718-4.9-4H114v48H85.9c-.463 2.282-2.48 4-4.9 4-2.76 0-5-2.24-5-5s2.24-5 5-5c2.42 0 4.437 1.718 4.9 4H112v-48h12.1zm-6.2 130c-.463 2.282-2.48 4-4.9 4-2.76 0-5-2.24-5-5s2.24-5 5-5c2.42 0 4.437 1.718 4.9 4H176v-74.1c-2.282-.463-4-2.48-4-4.9 0-2.76 2.24-5 5-5s5 2.24 5 5c0 2.42-1.718 4.437-4 4.9V242h-60.1zm-16-64c-.463 2.282-2.48 4-4.9 4-2.76 0-5-2.24-5-5s2.24-5 5-5c2.42 0 4.437 1.718 4.9 4H114v48h10.1c.463-2.282 2.48-4 4.9-4 2.76 0 5 2.24 5 5s-2.24 5-5 5c-2.42 0-4.437-1.718-4.9-4H112v-48h-10.1zM66 284.1c2.282.463 4 2.48 4 4.9 0 2.76-2.24 5-5 5s-5-2.24-5-5c0-2.42 1.718-4.437 4-4.9V274H50v30h-2v-32h18v12.1zM236.1 176c.463-2.282 2.48-4 4.9-4 2.76 0 5 2.24 5 5s-2.24 5-5 5c-2.42 0-4.437-1.718-4.9-4H226v94h48v32h-2v-30h-48v-98h12.1zm25.8-30c-.463 2.282-2.48 4-4.9 4-2.76 0-5-2.24-5-5s2.24-5 5-5c2.42 0 4.437 1.718 4.9 4H274v44.1c2.282.463 4 2.48 4 4.9 0 2.76-2.24 5-5 5s-5-2.24-5-5c0-2.42 1.718-4.437 4-4.9V146h-10.1zm-64 96c-.463 2.282-2.48 4-4.9 4-2.76 0-5-2.24-5-5s2.24-5 5-5c2.42 0 4.437 1.718 4.9 4H208v-80h16v-14h-42.1c-.463 2.282-2.48 4-4.9 4-2.76 0-5-2.24-5-5s2.24-5 5-5c2.42 0 4.437 1.718 4.9 4H226v18h-16v80h-12.1zm86.2-210c.463-2.282 2.48-4 4.9-4 2.76 0 5 2.24 5 5s-2.24 5-5 5c-2.42 0-4.437-1.718-4.9-4H272V0h2v32h10.1zM98 101.9c2.282-.463 4-2.48 4-4.9 0-2.76-2.24-5-5-5s-5 2.24-5 5c0 2.42 1.718 4.437 4 4.9V144H53.9c-.463-2.282-2.48-4-4.9-4-2.76 0-5 2.24-5 5s2.24 5 5 5c2.42 0 4.437-1.718 4.9-4H98v-44.1zM53.9 34c-.463 2.282-2.48 4-4.9 4-2.76 0-5-2.24-5-5s2.24-5 5-5c2.42 0 4.437 1.718 4.9 4H80V0h2v34H53.9zm60.1 3.9c2.282-.463 4-2.48 4-4.9 0-2.76-2.24-5-5-5s-5 2.24-5 5c0 2.42 1.718 4.437 4 4.9V64H80v64H69.9c-.463-2.282-2.48-4-4.9-4-2.76 0-5 2.24-5 5s2.24 5 5 5c2.42 0 4.437-1.718 4.9-4H82V66h32V37.9zM101.9 82c-.463 2.282-2.48 4-4.9 4-2.76 0-5-2.24-5-5s2.24-5 5-5c2.42 0 4.437 1.718 4.9 4H128V37.9c-2.282-.463-4-2.48-4-4.9 0-2.76 2.24-5 5-5s5 2.24 5 5c0 2.42-1.718 4.437-4 4.9V82h-28.1zm16-64c-.463 2.282-2.48 4-4.9 4-2.76 0-5-2.24-5-5s2.24-5 5-5c2.42 0 4.437 1.718 4.9 4H146v44.1c2.282.463 4 2.48 4 4.9 0 2.76-2.24 5-5 5s-5-2.24-5-5c0-2.42 1.718-4.437 4-4.9V18h-26.1zm102.2 270c.463-2.282 2.48-4 4.9-4 2.76 0 5 2.24 5 5s-2.24 5-5 5c-2.42 0-4.437-1.718-4.9-4H98v14h-2v-16h124.1zM242 149.9c2.282-.463 4-2.48 4-4.9 0-2.76-2.24-5-5-5s-5 2.24-5 5c0 2.42 1.718 4.437 4 4.9V162h16v30h-16v66h48v46h2v-48h-48v-62h16v-34h-16v-10.1zM53.9 18c-.463 2.282-2.48 4-4.9 4-2.76 0-5-2.24-5-5s2.24-5 5-5c2.42 0 4.437 1.718 4.9 4H64V2H48V0h18v18H53.9zm112 32c-.463 2.282-2.48 4-4.9 4-2.76 0-5-2.24-5-5s2.24-5 5-5c2.42 0 4.437 1.718 4.9 4H192V0h50v2h-48v48h-28.1zm-48-48c-.463 2.282-2.48 4-4.9 4-2.76 0-5-2.24-5-5 0-.342.034-.677.1-1h2.07c-.11.313-.17.65-.17 1 0 1.657 1.343 3 3 3s3-1.343 3-3c0-.35-.06-.687-.17-1H178v34h-18V21.9c-2.282-.463-4-2.48-4-4.9 0-2.76 2.24-5 5-5s5 2.24 5 5c0 2.42-1.718 4.437-4 4.9V32h14V2h-58.1zm0 96c-.463 2.282-2.48 4-4.9 4-2.76 0-5-2.24-5-5s2.24-5 5-5c2.42 0 4.437 1.718 4.9 4H137l32-32h39V21.9c-2.282-.463-4-2.48-4-4.9 0-2.76 2.24-5 5-5s5 2.24 5 5c0 2.42-1.718 4.437-4 4.9V66h-40.172l-32 32H117.9zm28.1 90.1c2.282.463 4 2.48 4 4.9 0 2.76-2.24 5-5 5s-5-2.24-5-5c0-2.42 1.718-4.437 4-4.9v-76.513L175.586 80H224V21.9c-2.282-.463-4-2.48-4-4.9 0-2.76 2.24-5 5-5s5 2.24 5 5c0 2.42-1.718 4.437-4 4.9V82h-49.586L146 112.414V188.1zm16 32c2.282.463 4 2.48 4 4.9 0 2.76-2.24 5-5 5s-5-2.24-5-5c0-2.42 1.718-4.437 4-4.9v-99.513L184.586 96H300.1c.398-1.96 1.94-3.502 3.9-3.9v2.07c-1.165.413-2 1.524-2 2.83s.835 2.417 2 2.83v2.07c-1.96-.398-3.502-1.94-3.9-3.9H185.414L162 121.414V220.1zm-144-64c2.282.463 4 2.48 4 4.9 0 2.76-2.24 5-5 5s-5-2.24-5-5c0-2.42 1.718-4.437 4-4.9v-3.513l48-48V48h32V0h2v50H66v55.413l-48 48v2.687zM50 53.9c2.282-.463 4-2.48 4-4.9 0-2.76-2.24-5-5-5s-5 2.24-5 5c0 2.42 1.718 4.437 4 4.9v42.686l-48 48V210h28.1c.463 2.282 2.48 4 4.9 4 2.76 0 5-2.24 5-5s-2.24-5-5-5c-2.42 0-4.437 1.718-4.9 4H2v-62.586l48-48V53.9zm-16 16c2.282-.463 4-2.48 4-4.9 0-2.76-2.24-5-5-5s-5 2.24-5 5c0 2.42 1.718 4.437 4 4.9v18.686l-32 32v2.828l34-34V69.9zM12.1 32c.463-2.282 2.48-4 4.9-4 2.76 0 5 2.24 5 5s-2.24 5-5 5c-2.42 0-4.437-1.718-4.9-4H9.414L0 43.414v-2.828L8.586 32H12.1zm265.8 18c-.463 2.282-2.48 4-4.9 4-2.76 0-5-2.24-5-5s2.24-5 5-5c2.42 0 4.437 1.718 4.9 4h18.686L304 40.586v2.828L297.414 50H277.9zm-16 160c-.463 2.282-2.48 4-4.9 4-2.76 0-5-2.24-5-5s2.24-5 5-5c2.42 0 4.437 1.718 4.9 4H288V136.587l16-16v2.827l-14 14V210h-28.1zm-208 32c-.463 2.282-2.48 4-4.9 4-2.76 0-5-2.24-5-5s2.24-5 5-5c2.42 0 4.437 1.718 4.9 4H64v-22.586L40.586 194H21.9c-.463 2.282-2.48 4-4.9 4-2.76 0-5-2.24-5-5s2.24-5 5-5c2.42 0 4.437 1.718 4.9 4h19.513L66 216.586V242H53.9zm150.2 14c.463-2.282 2.48-4 4.9-4 2.76 0 5 2.24 5 5s-2.24 5-5 5c-2.42 0-4.437-1.718-4.9-4H96v-56.598L56.598 162H37.9c-.463 2.282-2.48 4-4.9 4-2.76 0-5-2.24-5-5s2.24-5 5-5c2.42 0 4.437 1.718 4.9 4h19.502L98 200.598V256h106.1zm-150.2 2c-.463 2.282-2.48 4-4.9 4-2.76 0-5-2.24-5-5s2.24-5 5-5c2.42 0 4.437 1.718 4.9 4H80v-46.586L48.586 178H21.9c-.463 2.282-2.48 4-4.9 4-2.76 0-5-2.24-5-5s2.24-5 5-5c2.42 0 4.437 1.718 4.9 4h27.513L82 208.586V258H53.9zM97 100c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm0-16c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm16 16c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm16 16c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm0 16c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm-48 32c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm16 16c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm32 48c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm-16 16c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm32-16c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm0-32c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm16 32c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm32 16c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm0-16c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm-16-64c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm16 0c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm16 96c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm0 16c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm16 16c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm16-144c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm0 32c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm16-32c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm16-16c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm-96 0c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm0 16c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm16-32c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm96 0c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm-16-64c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm16-16c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm-32 0c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm0-16c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm-16 0c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm-16 0c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm-16 0c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM49 36c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm-32 0c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm32 16c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM33 68c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm16-48c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm0 240c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm16 32c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm-16-64c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm0 16c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm-16-32c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm80-176c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm16 0c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm-16-16c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm32 48c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm16-16c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm0-32c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm112 176c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm-16 16c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm0 16c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm0 16c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM17 180c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm0 16c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm0-32c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm16 0c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM17 84c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm32 64c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm16-16c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 39.793V0h-2v40.586L8.586 64H0v2h9.413L34 41.414v-1.62zM2 300.1V258h14v46h2v-48H0V302.17c.313-.11.65-.17 1-.17 1.306 0 2.417.835 2.83 2H5.9c-.398-1.96-1.94-3.502-3.9-3.9zM34 241v63h-2v-62H0v-2h34v1zM17 18h1V0h-2v16H0v2h17zm273-2V0h-2v18h16v-2h-14zm-32 273v15h-2v-14h-14v14h-2v-16h18v1zM0 92.1c.323-.066.658-.1 1-.1 2.76 0 5 2.24 5 5s-2.24 5-5 5c-.342 0-.677-.034-1-.1v-2.07c.313.11.65.17 1 .17 1.657 0 3-1.343 3-3s-1.343-3-3-3c-.35 0-.687.06-1 .17V92.1zM80 272h2v32h-2v-32zm37.9 32c-.463-2.282-2.48-4-4.9-4-2.42 0-4.437 1.718-4.9 4h2.07c.413-1.165 1.524-2 2.83-2s2.417.835 2.83 2h2.07zM5.9 0c.066.323.1.658.1 1 0 2.76-2.24 5-5 5-.342 0-.677-.034-1-.1V3.83C.313 3.94.65 4 1 4c1.657 0 3-1.343 3-3 0-.35-.06-.687-.17-1H5.9zm294.2 0c-.066.323-.1.658-.1 1 0 2.42 1.718 4.437 4 4.9V3.83c-1.165-.413-2-1.524-2-2.83 0-.35.06-.687.17-1h-2.07zm3.9 300.1c-1.96.398-3.502 1.94-3.9 3.9h2.07c.302-.852.978-1.528 1.83-1.83v-2.07z' fill='%23b2e0ff' fill-opacity='0.15' fill-rule='evenodd'/%3E%3C/svg%3E");
+        }
+
+
+        /* Material Custom Classes */
+
+
+        /* ==========  Select Field Variables ========== */
+
+
+        /* ==========  Select Field ========== */
+
+
+        /* Style Select Field */
+
+        select {
+            font-family: inherit;
+            background-color: transparent;
+            width: 300px;
+            max-width: 100%;
+            padding: 4px 0;
+            font-size: 16px;
+            color: rgba(0, 0, 0, 0.71);
+            border: none;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+        }
+
+
+        /* Remove focus */
+
+        select:focus {
+            outline: none;
+        }
+
+
+        /* Hide label */
+
+        .mdl-selectfield label {
+            display: none;
+        }
+
+
+        /* Use custom arrow */
+
+        .mdl-selectfield select {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+        }
+
+        .mdl-selectfield {
+            font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+            position: relative;
+        }
+
+        .mdl-selectfield:after {
+            position: absolute;
+            top: 0.75em;
+            right: 0.5em;
+            /* Styling the down arrow */
+            width: 0;
+            height: 0;
+            padding: 0;
+            content: '';
+            border-left: .25em solid transparent;
+            border-right: .25em solid transparent;
+            border-top: 0.375em solid rgba(0, 0, 0, 0.12);
+            pointer-events: none;
+        }
+
+
+
+
+
+    </style>
+
+</head>
+
+<body class="mdl-appg mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+<div class="mdl-layout__container has-scrolling-header">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header has-tabs is-upgraded"
+         data-upgraded=",MaterialLayout">
+        <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary hero-pattern-bg">
+            <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+            </div>
+            <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+                <h3>Net Blocker FAQ</h3>
+            </div>
+
+            <div class="mdl-layout__tab-bar-container">
+                <div class="mdl-layout__tab-bar-button mdl-layout__tab-bar-left-button"><i
+                        class="material-icons">chevron_left</i></div>
+                <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark mdl-js-ripple-effect--ignore-events"
+                     data-upgraded=",MaterialRipple">
+
+
+                    <a href="./faq.html" class="mdl-layout__tab is-active">FAQ<span
+                            class="mdl-layout__tab-ripple-container mdl-js-ripple-effect"
+                            data-upgraded=",MaterialRipple"><span class="mdl-ripple"></span></span></a>
+                    <a href="./privacy.html" class="mdl-layout__tab ">Privacy<span
+                            class="mdl-layout__tab-ripple-container mdl-js-ripple-effect"
+                            data-upgraded=",MaterialRipple"><span class="mdl-ripple"></span></span></a>
+                    <a href="./terms.html" class="mdl-layout__tab">Terms<span
+                            class="mdl-layout__tab-ripple-container mdl-js-ripple-effect"
+                            data-upgraded=",MaterialRipple"><span class="mdl-ripple"></span></span></a>
+
+                    <div class="spacer"></div>
+
+                    <a class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-shadow--4dp"
+                       id="add"
+                       href="#"
+                       target="_blank" data-upgraded=",MaterialButton,MaterialRipple">
+                        <img src="https://cdn.freebiesupply.com/logos/large/2x/google-play-store-logo-svg-vector.svg" alt="github" class="github-logo">
+                        <span class="visuallyhidden">Add</span>
+                        <span class="mdl-button__ripple-container"><span
+                                class="mdl-ripple is-animating"
+                                style="width: 160.392px; height: 160.392px; transform: translate(-50%, -50%) translate(10px, 30px);"></span></span></a>
+
+                </div>
+                <div class="mdl-layout__tab-bar-button mdl-layout__tab-bar-right-button"><i
+                        class="material-icons">chevron_right</i></div>
+            </div>
+        </header>
+        <main id="vueapp" class="mdl-layout__content">
+
+            <div class="mdl-layout__tab-panel is-active">
+                <section class="section--center mdl-grid">
+                    <div class="mdl-card mdl-cell mdl-cell--12-col mdl-shadow--2dp">
+                        <div class="mdl-card__supporting-text">
+                            <div id="faq_content">
+                                <h2>Frequently Asked Questions (FAQ)</h2>
+
+
+                                <p><a name="faq0"></a>
+                                    <strong>(0) How do I use NetBlocker?</strong>
+                                </p>
+
+                                <ul>
+                                    <li>Enable the NetBlocker firewall using the switch in NetBlocker's
+                                        action bar
+                                    </li>
+
+                                    <li>Allow (greenish*) or deny (reddish*) Wi-Fi or mobile
+                                        internet access using the icons next to an application name
+                                        in NetBlocker's applications list
+                                    </li>
+                                </ul>
+
+                                <p>You can use <em>Settings > Defaults</em> to change from
+                                    block/blacklist mode (disable <em>Block Wi-Fi</em> and <em>Block
+                                        mobile</em>, and then block unwanted applications in
+                                    NetBlocker's applications list) to allow/whitelist mode (enable
+                                    <em>Block Wi-Fi</em> and <em>Block mobile</em>, and then allow
+                                    desired applications in NetBlocker's applications list).</p>
+
+                                <p>* Depending on the theme you use, the icons may be:</p>
+
+                                <ul>
+                                    <li>Allowed (internet access permitted): greenish (teal) / blue
+                                        / purple / gray
+                                    </li>
+
+                                    <li>Blocked (internet access denied): reddish (salmon) / orange
+                                        / yellow / amber
+                                    </li>
+                                </ul>
+
+                                <p><a name="faq1"></a>
+                                    <strong>(1) Can NetBlocker completely protect my privacy?</strong>
+                                </p>
+
+                                <p>No - nothing can completely protect your privacy.
+                                    NetBlocker will do its best, but it is limited by the fact it must
+                                    use the VPN service.
+                                    This is the trade-off required to make a firewall which does not
+                                    require root access.
+                                    The firewall can only start when Android "allows" it to start,
+                                    so it will not offer protection during early boot-up (although
+                                    you can disable your network before rebooting).
+                                    It will, however, be much better than nothing.</p>
+
+                                <p>Android N and later allows NetBlocker to be an <a
+                                        href="https://developer.android.com/preview/features/afw.html#always-on-vpn">Always-On
+                                    VPN</a>.
+                                    On Android O do not enable '<em>Block connections without
+                                        VPN</em>', see <a href="#user-content-faq51">question 51</a>)
+                                    for more information on this.</p>
+
+                                <p>To protect yourself more, remember to disable Wi-Fi and mobile
+                                    data before rebooting,
+                                    and only enable them on reboot, after the firewall service has
+                                    started (and the key icon is visible in the status bar).</p>
+
+                                <p>Thanks @<a href="https://github.com/pulser/">pulser</a></p>
+
+                                <p><a name="faq2"></a>
+                                    <strong>(2) Can I use another VPN application while using
+                                        NetBlocker</strong></p>
+
+                                <p>If the VPN application is using the <a
+                                        href="http://developer.android.com/reference/android/net/VpnService.html">VPN
+                                    service</a>,
+                                    then no, because NetBlocker needs to use this service. Android
+                                    allows only one application at a time to use this service.</p>
+
+                                <p>NetBlocker is a firewall application, so there is no intention to
+                                    add VPN support.
+                                    However, NetBlocker supports a <a
+                                            href="https://en.wikipedia.org/wiki/SOCKS">SOCKS5
+                                        proxy</a> to chain VPN applications.</p>
+
+                                <p><a name="faq3"></a>
+                                    <strong>(3) Can I use NetBlocker on any Android version?</strong>
+                                </p>
+
+                                <p>No, the minimum required Android version is 5.1 (<a
+                                        href="https://developer.android.com/about/versions/lollipop">Lollipop</a>)
+                                </p>
+
+                                <p><a name="faq4"></a>
+                                    <strong>(4) Will NetBlocker use extra battery power?</strong></p>
+
+                                <p>By default NetBlocker will hardly use any battery power.
+                                    All settings resulting in extra battery usage, like IP filtering
+                                    and logging, have a warning.
+                                    If NetBlocker uses a lot of battery power, please double check
+                                    your settings.</p>
+
+                                <p>The battery usage when IP filtering is enabled depends on the
+                                    quality of your Android VPN service implementation and the
+                                    efficiency of the processor of your device.
+                                    Generally the battery usage on older devices might be
+                                    unacceptable, yet hardly noticeable on modern devices with an
+                                    efficient processor.</p>
+
+                                <p>The network speed graph notification will use extra battery
+                                    power.
+                                    This is why the notification is shown only when the screen is
+                                    on.
+                                    You can decrease the update frequency using the settings to
+                                    reduce the battery usage.</p>
+
+                                <p>Note that Android often incorrectly contribute battery usage of
+                                    other apps to NetBlocker,
+                                    because the network traffic of other apps is flowing through
+                                    NetBlocker.
+                                    This means that it might look like NetBlocker is using a lot of
+                                    battery power,
+                                    but that in fact the total battery usage of all apps is still
+                                    the same.</p>
+
+                                <p><a name="faq6"></a>
+                                    <strong>(6) Will NetBlocker send my internet traffic to an
+                                        external (VPN) server?</strong></p>
+
+                                <p>No, depending on the mode of operation basically one of two
+                                    things will happen with your internet traffic:</p>
+
+                                <ul>
+                                    <li>When IP filtering is disabled, blocked internet traffic will
+                                        be routed into the local VPN service, which will operate as
+                                        a sinkhole (in effect dropping all blocked traffic)
+                                    </li>
+
+                                    <li>When IP filtering is enabled, both blocked and allowed
+                                        internet traffic will be routed into the local VPN service
+                                        and only allowed traffic will be forwarded to the intended
+                                        destination (and not to a VPN server)
+                                    </li>
+                                </ul>
+
+                                <p>The <a
+                                        href="http://developer.android.com/reference/android/net/VpnService.html">Android
+                                    VPN service</a> is being used to locally route all internet
+                                    traffic to NetBlocker so no root is required to build this
+                                    firewall application.
+                                    NetBlocker, unlike all other no-root firewalls applications, is
+                                    100% open source, so when you are in doubt you can check <a
+                                            href="https://github.com/M66B/NetBlocker/">the source
+                                        code</a> yourself.</p>
+
+                                <p><a name="faq7"></a>
+                                    <strong>(7) Why are applications without internet permission
+                                        shown?</strong></p>
+
+                                <p>Internet permission can be granted with each application update
+                                    without user consent.
+                                    By showing all applications, NetBlocker allows you to control
+                                    internet access even <em>before</em> such an update occurs.</p>
+
+                                <p><a name="faq8"></a>
+                                    <strong>(8) What do I need to enable for the Google Play™ store
+                                        app to work?</strong></p>
+
+                                <p>You need 3 packages (applications) enabled (use search in
+                                    NetBlocker to find them quickly):</p>
+
+                                <ul>
+                                    <li>com.android.vending (Play store)</li>
+
+                                    <li>com.google.android.gms (Play services)</li>
+
+                                    <li>com.android.providers.downloads (Download manager)</li>
+                                </ul>
+
+                                <p>Since the Google Play™ store app has a tendency to check for
+                                    updates or even download them all by itself (even if no account
+                                    is associated),
+                                    one can keep it in check by enabling "<em>Allow when device in
+                                        use</em>" for all 3 of these packages.
+                                    Click on the down arrow on the left side of an application name
+                                    and check that option,
+                                    but leave the network icons set to red (hence blocked). The
+                                    little human icon will appear for those packages.</p>
+
+                                <p>Note that NetBlocker does <em>not</em> require any Google service
+                                    to be installed.</p>
+
+                                <p><a name="faq9"></a>
+                                    <strong>(9) Why is the VPN service being restarted?</strong></p>
+
+                                <p>The VPN service will be restarted when you turn the screen on or
+                                    off and when connectivity changes (Wi-Fi, mobile)
+                                    to apply the rules with the conditions <em>'Allow when screen is
+                                        on'</em> and <em>'Block when roaming'</em>.</p>
+
+                                <p>See <a
+                                        href="http://forum.xda-developers.com/showpost.php?p=65723629&amp;postcount=1788">here</a>
+                                    for more details.</p>
+
+                                <p><a name="faq10"></a>
+                                    <strong>(10) Will you provide a Tasker plug-in?</strong></p>
+
+                                <p>No, because if Tasker is allowed to disable NetBlocker, any
+                                    application can disable NetBlocker.
+                                    Allowing a security application to be disabled by other
+                                    applications is not a good idea.</p>
+
+                                <p><a name="faq13"></a>
+                                    <strong>(13) How can I remove the ongoing NetBlocker entry in the
+                                        notification screen?</strong></p>
+
+                                <ul>
+                                    <li>Long click the NetBlocker notification</li>
+
+                                    <li>Tap the 'i' icon</li>
+
+                                    <li>Depending on your device and/or ROM manufacturer's software
+                                        customizations, you can be directed to either:
+
+
+                                        <ul>
+                                            <li>the <strong>App Info</strong> screen and you can
+                                                uncheck '<em>Show notifications</em>' and agree to
+                                                the next dialog
+                                            </li>
+
+                                            <li>the <strong>App Notifications</strong> screen and
+                                                you can toggle the '<em>Block</em>' slider to on
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <p>Note that, whether or not you get a dialog warning to agree upon,
+                                    this operation will also disable any information or warning
+                                    notifications from NetBlocker,
+                                    such as the new application installed notification.</p>
+
+                                <p>To read about the need for the notification in the first place,
+                                    see <a href="#user-content-faq24">question 24</a>.</p>
+
+                                <p>Some Android versions display an additional notification, which
+                                    might include a key icon.
+                                    This notification, unfortunately, cannot be removed.</p>
+
+                                <p><a name="faq14"></a>
+                                    <strong>(14) Why can't I select OK to approve the VPN connection
+                                        request?</strong></p>
+
+                                <p>There might be another (invisible) application on top of the VPN
+                                    connection request dialog.
+                                    Some known (screen dimming) applications which can cause this
+                                    are <em>Lux Brightness</em>, <em>Night Mode</em>, and <em>Twilight</em>.
+                                    To avoid this problem, at least temporarily, close all
+                                    applications and/or services which may be running in the
+                                    background.</p>
+
+                                <p><a name="faq15"></a>
+                                    <strong>(15) Are F-Droid builds supported?</strong></p>
+
+                                <p>F-Droid builds are not supported because I have no control over
+                                    if and when the F-Droid version of NetBlocker will be updated,
+                                    so I cannot guarantee timely updates, for example if there is a
+                                    critical or security issue.</p>
+
+                                <p><a name="faq16"></a>
+                                    <strong>(16) Why are some applications shown dimmed?</strong>
+                                </p>
+
+                                <p>Disabled applications and applications without internet
+                                    permission are shown dimmed.</p>
+
+                                <p><a name="faq17"></a>
+                                    <strong>(17) Why is NetBlocker using so much memory?</strong></p>
+
+                                <p>It isn't. NetBlocker doesn't allocate any memory, except a little
+                                    for displaying the user interface elements and for buffering
+                                    traffic.
+                                    It appears, on some Android variants, that the Google Play™
+                                    store app connection uses almost 150 MB. It is needed for in-app
+                                    donations,
+                                    and is incorrectly attributed to NetBlocker instead to the Google
+                                    Play™ store app.</p>
+
+                                <p><a name="faq18"></a>
+                                    <strong>(18) Why can't I find NetBlocker in the Google Play™ store
+                                        app?</strong></p>
+
+                                <p>NetBlocker requires at least Android 5.1, so it is not available in
+                                    the Google Play™ store app on devices running prior Android
+                                    versions.</p>
+
+                                <p><a name="faq19"></a>
+                                    <strong>(19) Why does application XYZ still have internet
+                                        access?</strong></p>
+
+                                <p>If you block internet access for an application, there is no way
+                                    around it.
+                                    However, applications could access the internet through other
+                                    (system) applications/components.
+                                    For example, Google Play services receives incoming push
+                                    messages and ads for most applications, including WhatsApp and
+                                    Facebook messenger.
+                                    You can prevent this by blocking internet access for the other
+                                    application/component as well.
+                                    You can block system applications and components, like Google
+                                    Play services, by enabling the advanced NetBlocker option <em>Manage
+                                        system apps</em>.
+                                    This can best be diagnosed by checking the global access log
+                                    (three dot menu, <em>Show log</em>).</p>
+
+                                <p>Note that some applications keep trying to access the internet,
+                                    which is done by sending a connection request packet.
+                                    This packet goes into the VPN sinkhole when internet access for
+                                    the application is blocked.
+                                    This packet consists of less than 100 bytes and is counted by
+                                    Android as outgoing traffic
+                                    and will be visible in the speed graph notification as well.</p>
+
+                                <p><a name="faq20"></a>
+                                    <strong>(20) Can I Greenify/hibernate NetBlocker?</strong></p>
+
+                                <p>No. <a
+                                        href="https://play.google.com/store/apps/details?id=com.oasisfeng.greenify">Greenifying</a>
+                                    or otherwise hibernating NetBlocker will result in rules not being
+                                    applied
+                                    when connectivity changes from Wi-Fi/mobile, screen on/off, and
+                                    roaming/not roaming.</p>
+
+                                <p><a name="faq21"></a>
+                                    <strong>(21) Does doze mode affect NetBlocker?</strong></p>
+
+                                <p>I am not sure, because the <a
+                                        href="http://developer.android.com/training/monitoring-device-state/doze-standby.html">doze
+                                    mode documentation</a>
+                                    is not clear if the <a
+                                            href="http://developer.android.com/reference/android/net/VpnService.html">Android
+                                        VPN service</a> will be affected.</p>
+
+                                <p>To be sure, you can disable battery optimizations for NetBlocker
+                                    manually like this:</p>
+
+                                <pre><code>Android settings &gt; Battery &gt; three dot menu &gt; Battery optimizations &gt; Dropdown &gt; All apps &gt; NetBlocker &gt; Don't optimize &gt; Done
+</code></pre>
+
+                                <p>The procedure to accomplish this can vary between devices.</p>
+
+                                <p>Disabling doze mode for NetBlocker cannot be done from within
+                                    NetBlocker
+                                    because, according to Google, NetBlocker is <a
+                                            href="http://developer.android.com/training/monitoring-device-state/doze-standby.html#whitelisting-cases">not
+                                        an application type allowed to do this</a>.</p>
+
+                                <p><a name="faq22"></a>
+                                    <strong>(22) Can I tether (use the Android hotspot) / use Wi-Fi
+                                        calling while using NetBlocker?</strong></p>
+
+                                <p>Yes, but you'll need to enable subnet routing and tethering in
+                                    the NetBlocker network settings.
+                                    Whether or not it works depends on your Android version
+                                    because some Android versions have a bug preventing tethering
+                                    and the VPN service working together.</p>
+
+                                <p>Some devices hibernate Wi-Fi, preventing tethering from working
+                                    when the screen is off.
+                                    This behavior can be disabled in the Android enhanced/advanced
+                                    Wi-Fi settings.</p>
+
+                                <p><a name="faq24"></a>
+                                    <strong>(24) Can you remove the notification from the status
+                                        bar?</strong></p>
+
+                                <p>Android can kill background services at any time.
+                                    This can only be prevented by turning a background service into
+                                    a foreground service.
+                                    Android requires an ongoing notification for all foreground
+                                    services
+                                    to make you aware of potential battery usage (see <a
+                                            href="#user-content-faq4">question 4</a>).
+                                    So, the notification cannot be removed without causing
+                                    instability.
+                                    However, the notification is being marked as low priority,
+                                    which should result in moving it to the bottom of the list.</p>
+
+                                <p>The key icon and/or the VPN running notification,
+                                    which is shown by Android and not by NetBlocker, unfortunately,
+                                    cannot be removed.
+                                    The
+                                    <a href="http://developer.android.com/reference/android/net/VpnService.html">Google
+                                        documentation</a> states:
+                                    <em>"A system-managed notification is shown during the lifetime
+                                        of a VPN connection"</em>.</p>
+
+                                <p>Android 8 Oreo and later display a notification "<em>... running
+                                    in the background</em>" listing all apps running in the
+                                    background.
+                                    You can't disable this notification, but you can remove the icon
+                                    from the status bar like this:</p>
+
+                                <ul>
+                                    <li>Open Settings > Apps &amp; notifications > App info</li>
+
+                                    <li>Open settings (three dots); Select "Show system"</li>
+
+                                    <li>Select "Android System"</li>
+
+                                    <li>Select "App notifications"</li>
+
+                                    <li>Select "Apps running in background"</li>
+
+                                    <li>Select "Importance" and select "Low"</li>
+                                </ul>
+
+                                <p><a name="faq25"></a>
+                                    <strong>(25) Can you add a 'Select All' function?</strong></p>
+
+                                <p>There is no need for a 'Select All' function
+                                    because you can switch from block (blacklist) to allow
+                                    (whitelist) mode using NetBlocker's settings.
+                                    See also <a href="#user-content-faq0">question 0</a>.</p>
+
+                                <p><a name="faq27"></a>
+                                    <strong>(27) How do I read the blocked traffic log?</strong></p>
+
+                                <p>The columns have the following meanings:</p>
+
+                                <ol>
+                                    <li>Time (tap on a log entry to see the date)</li>
+
+                                    <li>Application icon (tap on a log entry to see the application
+                                        name)
+                                    </li>
+
+                                    <li>Application UID</li>
+
+                                    <li>Wi-Fi / mobile connection, green=allowed, red=blocked</li>
+
+                                    <li>Interactive state (screen on or off)</li>
+
+                                    <li>Protocol (see below) and packet flags (see below)</li>
+
+                                    <li>Source and destination port (tap on a log entry to lookup a
+                                        destination port)
+                                    </li>
+
+                                    <li>Source and destination IPv4 or IPv6 address (tap on a log
+                                        entry to lookup a destination IP address)
+                                    </li>
+
+                                    <li>Organization name owning the IP address (needs to be enabled
+                                        via the menu)
+                                    </li>
+                                </ol>
+
+                                <p>Protocols:</p>
+
+                                <ul>
+                                    <li>HOPO (<a
+                                            href="https://en.m.wikipedia.org/wiki/IPv6_packet#Hop-by-hop_options_and_destination_options">IPv6
+                                        Hop-by-Hop Option</a>)
+                                    </li>
+
+                                    <li>ICMP</li>
+
+                                    <li>IGMP</li>
+
+                                    <li>ESP (IPSec)</li>
+
+                                    <li>TCP</li>
+
+                                    <li>UDP</li>
+
+                                    <li>Number = one of the protocols in <a
+                                            href="https://en.wikipedia.org/wiki/List_of_IP_protocol_numbers">this
+                                        list</a></li>
+
+                                    <li>4 = IPv4</li>
+
+                                    <li>6 = IPv6</li>
+                                </ul>
+
+                                <p>Packet flags:</p>
+
+                                <ul>
+                                    <li>S = SYN</li>
+
+                                    <li>A = ACK</li>
+
+                                    <li>P = PSH</li>
+
+                                    <li>F = FIN</li>
+
+                                    <li>R = RST</li>
+                                </ul>
+
+                                <p>For a detailed explanation see <a
+                                        href="https://en.wikipedia.org/wiki/Transmission_Control_Protocol">here</a>.
+                                </p>
+
+                                <p>Only TCP, UDP, and ICMP ping traffic can be routed through the
+                                    Android VPN service.
+                                    All other traffic will be dropped and will be shown as blocked
+                                    in the global traffic log.
+                                    This is almost never a problem on an Android device.</p>
+
+                                <p><a name="faq28"></a>
+                                    <strong>(28) Why is Google connectivity services allowed
+                                        internet access by default?</strong></p>
+
+                                <p>The Google connectivity services system application checks if the
+                                    current network is really connected to the internet.
+                                    This is probably accomplished by briefly connecting to some
+                                    Google server.</p>
+
+                                <p>If this is not the case, there will be an '!' in the Wi-Fi or
+                                    mobile icon in the system status bar.</p>
+
+                                <p>Recent Android versions seem not to switch connectivity from
+                                    mobile to Wi-Fi when the Wi-Fi network is not really connected,
+                                    even though there is a connection to the Wi-Fi network (or the
+                                    other way around). On Android 6.0 and later you might get a
+                                    notification asking you if you want to keep this connection on
+                                    or not.
+                                    To prevent a bad user experience, NetBlocker includes a predefined
+                                    rule to default allow the Google connectivity services.</p>
+
+                                <p>You can find all predefined rules <a
+                                        href="https://github.com/M66B/NetBlocker/blob/master/app/src/main/res/xml/predefined.xml">here</a>.
+                                </p>
+
+                                <p>You can override predefined rules.</p>
+
+                                <p><a name="faq29"></a>
+                                    <strong>(29) Why do I get 'The item you requested is not
+                                        available for purchase'?</strong></p>
+
+                                <p>You can only purchase pro features when you have installed
+                                    NetBlocker from the Google Play store.</p>
+
+                                <p><a name="faq30"></a>
+                                    <strong>(30) Can I also run AFWall+ on the same device?</strong>
+                                </p>
+
+                                <p>Unless you are just testing NetBlocker, there is no current reason
+                                    to use them both, since they cover the same function (firewall),
+                                    although with different base needs (AFWall+ needs a rooted
+                                    device) and ways of doing their thing (AFWall+ uses iptables
+                                    whereas NetBlocker uses a VPN).</p>
+
+                                <p>Also you need to keep per application access rules
+                                    <em>always</em> in sync between AFWall+ and NetBlocker,
+                                    else the application will not be able to access the network,
+                                    hence bringing another level of complexity when setting and
+                                    assuring everything work as expected.</p>
+
+                                <p>Some pointers on how to set up AFWall+ to be used simultaneously
+                                    with NetBlocker:</p>
+
+                                <ul>
+                                    <li>if not using filtering in NetBlocker, applications
+                                        <em>need</em> direct internet access (Wi-Fi and/or mobile)
+                                        in AFWall+
+                                    </li>
+
+                                    <li>if using filtering, NetBlocker will <em>need</em> internet
+                                        access (Wi-Fi and/or mobile) in AFWall+
+                                    </li>
+
+                                    <li>if using filtering, when you un/reinstall NetBlocker, remember
+                                        to re-allow NetBlocker in AFWall+
+                                    </li>
+
+                                    <li>if using filtering, applications <em>need</em> VPN internet
+                                        access (check the box to show that option in AFWall+
+                                        settings)
+                                    </li>
+                                </ul>
+
+                                <p>This question was community contributed. There is no support on
+                                    using NetBlocker and AFWall+ together.</p>
+
+                                <p><a name="faq31"></a>
+                                    <strong>(31) Why can some applications be configured as a group
+                                        only?</strong></p>
+
+                                <p>For many purposes, including network access, Android groups
+                                    applications on UID and not on package/application name.
+                                    Especially system applications often have the same UID, despite
+                                    having a different package and application name; these are set
+                                    up like this by the ROM manufacturer at build time.
+                                    These applications can only be allowed/blocked access to the
+                                    internet as a group.</p>
+
+                                <p><a name="faq32"></a>
+                                    <strong>(32) Why is the battery/network usage of NetBlocker so
+                                        high?</strong></p>
+
+                                <p>This is because Android counts battery and network usage which is
+                                    normally counted for other applications
+                                    against NetBlocker in IP filtering mode. The total battery usage
+                                    is slightly higher when IP filtering mode is enabled.
+                                    IP filtering mode is always enabled on Android versions prior to
+                                    5.0, and optionally enabled on later Android versions.</p>
+
+                                <p><a name="faq33"></a>
+                                    <strong>(33) Can you add profiles?</strong></p>
+
+                                <p>Profiles are inconvenient because they need to be operated
+                                    manually.
+                                    Conditions like '<em>When screen is on</em>' are, on the other
+                                    hand, convenient because they work automatically.
+                                    Therefore profiles will not be added, but you are welcome to
+                                    propose new conditions;
+                                    however, they need to be generally usable to be included.</p>
+
+                                <p>As a workaround you can use the export/import function to apply
+                                    specific settings in specific circumstances.
+                                    Alternatively, you can use lockdown mode as a profile.</p>
+
+                                <p><a name="faq34"></a>
+                                    <strong>(34) Can you add a condition 'when on foreground' or
+                                        'when active'?</strong></p>
+
+                                <p>Recent Android versions do not allow an application to query if
+                                    other applications are in the foreground/background or
+                                    active/inactive
+                                    without holding an <a
+                                            href="https://developer.android.com/reference/android/Manifest.permission.html#PACKAGE_USAGE_STATS">additional
+                                        privacy violating permission</a>
+                                    and at the expense of extra battery usage (because periodic
+                                    polling is required).
+                                    As a result, this cannot be added without significant
+                                    disadvantages, like <a
+                                            href="http://www.xda-developers.com/working-as-intended-an-exploration-into-androids-accessibility-lag/">this
+                                        one</a>.
+                                    You can use the condition '<em>when screen is on</em>' instead.
+                                </p>
+
+                                <p><a name="faq35"></a>
+                                    <strong>(35) Why does the VPN not start?</strong></p>
+
+                                <p>NetBlocker "asks" Android to start the local VPN service,
+                                    but some Android versions contain a bug which prevents the VPN
+                                    from starting (automatically).
+                                    Sometimes this is caused by updating NetBlocker.
+                                    Unfortunately this cannot be fixed by NetBlocker.
+                                    You can try to restart your device and/or revoke the VPN
+                                    permissions from NetBlocker using the Android settings.
+                                    Sometimes it helps to uninstall and install NetBlocker again (be
+                                    sure to export your settings first!).</p>
+
+                                <p><a name="faq36"></a>
+                                    <strong>(36) Can you add PIN or password protection?</strong>
+                                </p>
+
+                                <p>Since turning off the VPN service using the Android settings
+                                    cannot be prevented,
+                                    there is little use in adding PIN or password protection.</p>
+
+                                <p><a name="faq37"></a>
+                                    <strong>(37) Why are the pro features so expensive?</strong></p>
+
+                                <p>The right question is "<em>why are there so many taxes and
+                                    fees</em>":</p>
+
+                                <ul>
+                                    <li>VAT: 25% (depending on your country)</li>
+
+                                    <li>Google fee: 30%</li>
+
+                                    <li>Income tax: 50%</li>
+                                </ul>
+
+                                <p>So, what is left for the developer is just a fraction of what you
+                                    pay.</p>
+
+                                <p>Despite NetBlocker being <em>really</em> a lot of work, only some
+                                    of the convenience and advanced features need to be purchased,
+                                    which means that NetBlocker is basically free to use
+                                    and that you don't need to pay anything to reduce your data
+                                    usage, increase battery life, and increase your privacy.</p>
+
+                                <p>Also note that most free applications will appear not to be
+                                    sustainable in the end, whereas NetBlocker is properly maintained
+                                    and supported,
+                                    and that free applications may have a catch, like sending
+                                    privacy sensitive information to the internet.</p>
+
+                                <p>See <a
+                                        href="http://forum.xda-developers.com/showpost.php?p=67892427&amp;postcount=3030">here</a>
+                                    for some more information.</p>
+
+                                <p><a name="faq38"></a>
+                                    <strong>(38) Why did NetBlocker stop running?</strong></p>
+
+                                <p>On most devices, NetBlocker will keep running in the background
+                                    with its foreground service.
+                                    On some devices (in particular some Samsung models), where there
+                                    are lots of applications competing for memory, Android may still
+                                    stop NetBlocker as a last resort.
+                                    Some Android versions, in particular of Huawei (see <a
+                                            href="https://www.forbes.com/sites/bensin/2016/07/04/push-notifications-not-coming-through-to-your-huawei-phone-heres-how-to-fix-it/">here</a>
+                                    for a fix) or Xiaomi (see <a
+                                            href="https://www.forbes.com/sites/bensin/2016/11/17/how-to-fix-push-notifications-on-xiaomis-miui-8-for-real/">here</a>
+                                    for a fix) stop apps and services too aggressively.
+                                    Unfortunately this cannot be fixed by NetBlocker, and can be
+                                    considered a shortcoming of the device and/or as a bug in
+                                    Android.
+                                    As a matter of fact lots of apps suffer from this, see <a
+                                            href="https://dontkillmyapp.com/">here</a> for more
+                                    information.
+                                    You can workaround this problem by enabling the watchdog in the
+                                    NetBlocker advanced options to check every 10-15 minutes.</p>
+
+                                <p><a name="faq39"></a>
+                                    <strong>(39) How does a VPN based firewall differ from a
+                                        iptables based firewall?</strong></p>
+
+                                <p>See this <a
+                                        href="http://android.stackexchange.com/questions/152087/any-security-difference-between-root-based-firewall-afwall-and-non-root-based">Stack
+                                    Exchange question</a>.</p>
+
+                                <p><a name="faq40"></a>
+                                    <strong>(40) Can you add schedules?</strong></p>
+
+                                <p>Besides not being trivial to add, schedules - in my opinion - are
+                                    not a good idea, since time is not a good rule condition.
+                                    A rule condition like <em>When screen is on</em> is a better and
+                                    more straightforward condition.
+                                    Therefore schedules will not be added, but you are welcome to
+                                    propose other new conditions.</p>
+
+                                <p><a name="faq41"></a>
+                                    <strong>(41) Can you add wildcards?</strong></p>
+
+                                <p>Wildcards to allow/block addresses would have a significant
+                                    performance and usability impact and therefore will not be
+                                    added.</p>
+
+                                <p><a name="faq42"></a>
+                                    <strong>(42) Why is permission ... needed?</strong></p>
+
+                                <ul>
+                                    <li>INTERNET ('<em>Full network access</em>'): to forward
+                                        allowed (filtered) traffic to the internet
+                                    </li>
+
+                                    <li>ACCESS<em>NETWORK</em>STATE ('<em>View network
+                                        connections</em>'): to check if the device is connected to
+                                        the internet through Wi-Fi
+                                    </li>
+
+                                    <li>READ<em>PHONE</em>STATE ('<em>Device ID &amp; call
+                                        information</em>'): to detect mobile network changes, see <a
+                                            href="http://forum.xda-developers.com/showpost.php?p=64107371&amp;postcount=489">here</a>
+                                        for more details
+                                    </li>
+
+                                    <li>ACCESS<em>WIFI</em>STATE ('<em>Wi-Fi connection
+                                        information</em>'): to detect Wi-Fi network changes
+                                    </li>
+
+                                    <li>RECEIVE<em>BOOT</em>COMPLETED ('<em>Run at startup</em>'):
+                                        to start the firewall when booting the device
+                                    </li>
+
+                                    <li>WAKE_LOCK ('<em>Prevent device from sleeping</em>'): to
+                                        reliably reload rules in the background on connectivity
+                                        changes
+                                    </li>
+
+                                    <li>VIBRATE: to provide vibration feedback on widget tap</li>
+
+                                    <li>FOREGROUND_SERVICE ('foreground service'): to run a
+                                        foreground service on Android 9 Pie and later
+                                    </li>
+
+                                    <li>BILLING: to use in-app billing</li>
+                                </ul>
+
+                                <p><a name="faq43"></a>
+                                    <strong>(43) I get 'This app is causing your device to run
+                                        slowly'</strong></p>
+
+                                <p>This message is displayed by the <em>Smart Manager</em>,
+                                    but actually it is the 'Smart' Manager application itself which
+                                    is causing delays and lags.
+                                    Some links:</p>
+
+                                <ul>
+                                    <li>
+                                        <a href="https://www.reddit.com/r/GalaxyS6/comments/3htu2y/smart_manager_cmoplaining_about_lastpass/">Smart
+                                            Manager complaining about LastPass</a></li>
+
+                                    <li>
+                                        <a href="http://forums.androidcentral.com/samsung-galaxy-s4/595483-disable-smart-manager.html">Disable
+                                            Smart Manager?</a></li>
+                                </ul>
+
+                                <p><a name="faq44"></a>
+                                    <strong>(44) I don't get notifications on access</strong></p>
+
+                                <p>To prevent a high number of status bar notifications, notify on
+                                    access is done only once per domain name per application.
+                                    Access to domain names shown in the application access log
+                                    (drill down in the NetBlocker application settings) will not be
+                                    notified again,
+                                    even if you just enabled notify on access.
+                                    To get notified for all domain names again, you can clear the
+                                    application access log using the trashcan icon.
+                                    If you want to clear all applications logs, you can export and
+                                    import your settings.</p>
+
+                                <p>Another reason why you don't get notifications could be an
+                                    applied "Power Saving Mode" for example on Samsung devices. Even
+                                    if you do not restrict CPU frequency in this mode.</p>
+
+                                <p><a name="faq45"></a>
+                                    <strong>(45) Does NetBlocker handle incoming connections?</strong>
+                                </p>
+
+                                <p>The Android VPN service handles outgoing connections only (from
+                                    applications to the internet), so incoming connections are
+                                    normally left alone.</p>
+
+                                <p>If you want to run a server application on Android, then be aware
+                                    that using port numbers below 1024 require root permissions
+                                    and that some Android versions contain routing bugs, causing
+                                    inbound traffic incorrectly being routed into the VPN.</p>
+
+                                <p><a name="faq46"></a>
+                                    <strong>(46) Can I get a refund?</strong></p>
+
+                                <p>If a purchased pro feature doesn't work <a
+                                        href="https://www.NetBlocker.me/">as described</a>
+                                    and this isn't caused by a problem in the free features
+                                    and I cannot fix the problem in a timely manner, you can get a
+                                    refund.
+                                    In all other cases there is no refund possible.
+                                    In no circumstances there is a refund possible for any problem
+                                    related to the free features,
+                                    since there wasn't paid anything for them and because they can
+                                    be evaluated without any limitation.
+                                    I take my responsibility as seller to deliver what has been
+                                    promised
+                                    and I expect that you take responsibility for informing yourself
+                                    of what you are buying.</p>
+
+                                <p><a name="faq47"></a>
+                                    <strong>(47) Why are there in-application
+                                        advertisements?</strong></p>
+
+                                <p>Developing NetBlocker was quite a challenge and <a
+                                        href="https://www.openhub.net/p/NetBlocker/estimated_cost">really
+                                    a lot of work</a>, but fun to do.
+                                    A good product deserves good support, which means, in practice,
+                                    that I am spending 30-60 minutes each and every day answering
+                                    questions and solving problems.
+                                    Just about 1 in 1000 downloaders purchase any of the pro
+                                    features, so support is basically one way.
+                                    This is not maintainable in the long run and this is why
+                                    advertisements were added.
+                                    Purchasing any of the pro features will completely disable
+                                    advertisements and help keep the project going.</p>
+
+                                <p><a name="faq48"></a>
+                                    <strong>(48) Why are some domain names blocked while they are
+                                        set to be allowed?</strong></p>
+
+                                <p>NetBlocker blocks traffic based on the IP addresses an application
+                                    is trying to connect to.
+                                    If more than one domain name is on the same IP, they cannot be
+                                    distinguished.
+                                    If you set different rules for 2 domains which resolve to the
+                                    same IP, both will be blocked.</p>
+
+                                <p>Thanks @<a href="https://github.com/pulser/">pulser</a></p>
+
+                                <p>Another potential problem is that Android doesn't honor the DNS
+                                    TTL value and applies its own caching rules.
+                                    This could result in NetBlocker too early or too late purging a
+                                    DNS record from its own cache,
+                                    resulting in not recognizing an IP address or recognizing a
+                                    wrong IP address.
+                                    You can try to workaround this by changing the DNS TTL value
+                                    setting of NetBlocker.
+                                    This value is used as a minimum DNS TTL value in an attempt to
+                                    mimick the behavior of Android.</p>
+
+                                <p><a name="faq49"></a>
+                                    <strong>(49) Does NetBlocker encrypt my internet traffic / hide my
+                                        IP address?</strong></p>
+
+                                <p>NetBlocker is a firewall application that filters internet traffic
+                                    on your device (see also <a href="#user-content-faq6">this
+                                        question</a>),
+                                    so it is not meant to - and does not - encrypt your internet
+                                    traffic or hide your IP address.</p>
+
+                                <p><a name="faq50"></a>
+                                    <strong>(50) Will NetBlocker automatically start on boot?</strong>
+                                </p>
+
+                                <p>Yes, NetBlocker will automatically be started on boot if you
+                                    powered off your device with NetBlocker enabled and NetBlocker is
+                                    not installed on external storage.</p>
+
+                                <p>Some devices, for example OnePlus and Mi devices, can prevent
+                                    certain apps from auto-starting after reboot.
+                                    This can be disabled in the Android settings.</p>
+
+                                <p><a name="faq51"></a>
+                                    <strong>(51) Why does NetBlocker block all internet
+                                        traffic?!</strong></p>
+
+                                <p>Make sure you have put NetBlocker on the doze exception list
+                                    (Android 6 Marshmallow or later)
+                                    and that Android allows NetBlocker to use the internet in the
+                                    background (see also <a href="#user-content-faq21">this
+                                        question</a>).</p>
+
+                                <p>Make sure you are not running NetBlocker in allow (whitelist) mode
+                                    (check the NetBlocker default settings).</p>
+
+                                <p>Make sure you didn't enable the Always-On VPN setting '<em>Block
+                                    connections without VPN</em>' (Android 8 Oreo or later).
+                                    This will block resolving domain names too (is it a bug or
+                                    feature?).</p>
+
+                                <p>Some Android versions, including LineageOS for some devices,
+                                    contain a bug resulting in all internet traffic being blocked.
+                                    Mostly, you can workaround this bug by enabling filtering in
+                                    NetBlocker's <em>Advanced options</em>.
+                                    If this doesn't solve the issue, the problem can unfortunately
+                                    not be fixed or worked around by NetBlocker.</p>
+
+                                <p><a name="faq52"></a>
+                                    <strong>(52) What is lockdown mode?</strong></p>
+
+                                <p>In lockdown mode, all traffic for all applictions will be
+                                    blocked,
+                                    except for applications with the condition <em>'Allow in
+                                        lockdown mode'</em> enabled.
+                                    You can use this mode to limit battery usage or network usage,
+                                    for example, when your battery is almost empty or when your data
+                                    allotment is almost exhausted.
+                                    Note that system applications will only be blocked in this mode
+                                    when managing system applications is enabled in the advanced
+                                    settings.</p>
+
+                                <p>You can enable/disable lockdown mode in the main menu, using a
+                                    widget, or using a settings tile (Android 7 Nougat or
+                                    later).</p>
+
+                                <p><a name="faq53"></a>
+                                    <strong>(53) The translation in my language is missing /
+                                        incorrect / incomplete</strong></p>
+
+                                <p>You can contribute translations <a
+                                        href="https://crowdin.com/project/NetBlocker">here</a>
+                                    (registration is free).
+                                    If your language is missing, please contact me to have it added.
+                                </p>
+
+                                <p><a name="faq54"></a>
+                                    <strong>(54) How to tunnel all TCP connections through the Tor
+                                        network?</strong></p>
+
+                                <p>Tor with NetBlocker is only supported in the <a
+                                        href="http://forum.xda-developers.com/showthread.php?t=3233012">XDA
+                                    NetBlocker forum</a>.
+                                    There is no personal support on Tor with NetBlocker, because I
+                                    don't use Tor myself.</p>
+
+                                <p>First, install <a
+                                        href="market://details?id=org.torproject.android">Orbot</a>,
+                                    the Android client for Tor,
+                                    run it, press <em>Start</em>, while it connects open its <em>Settings</em>
+                                    and make sure it's setup to auto-start
+                                    on device start.</p>
+
+                                <p>In NetBlocker's <em>Network options</em> enable <em>Subnet
+                                    routing</em> and in <em>Advanced options</em> toggle on
+                                    <em>Use SOCKS5 proxy</em> with address 127.0.0.1 and port as
+                                    9050 (this is the default port, if you changed
+                                    this in Orbot make the adjustment here also).</p>
+
+                                <p>This should be enough, if testing fails (eg. no connection at
+                                    all) you can open the app details
+                                    for Orbot, uncheck <em>Apply rules and conditions</em> and
+                                    retry.</p>
+
+                                <p>How to test: open Firefox (or another non-proxy enabled browser)
+                                    to the address https://ipleak.net/
+                                    and you should see a different IP address from your regular one,
+                                    and below in the <em>Tor Exit Node</em>
+                                    field something else besides <em>Unknown</em>.</p>
+
+                                <p><strong>Be aware</strong> that all the other Tor caveats
+                                    (https://www.torproject.org/docs/faq.html.en) still apply,
+                                    like having the Tor network unreacheable, your activity actively
+                                    monitored/targeted in your country,
+                                    online services (eg. Gmail, Google Play store) failing to login
+                                    or being forced to solve endless capchas
+                                    when accessing sites that use Cloudflare's CDN services.</p>
+
+                                <p><a name="faq55"></a>
+                                    <strong>(55) Why does NetBlocker connect to Amazon / ipinfo.io /
+                                        216.239.34.21?</strong></p>
+
+                                <p>NetBlocker connects to Amazon / <a href="https://ipinfo.io/">ipinfo.io</a>
+                                    to show the names and organizations for IP addresses.
+                                    If you don't want this, just disable showing names and
+                                    organizations using the three dot menu in the global log view.
+                                </p>
+
+                                <p><a name="faq56"></a>
+                                    <strong>(56) Why does NetBlocker allow all internet
+                                        traffic?!</strong></p>
+
+                                <p>NetBlocker can block each and every application, even system
+                                    applications and components.</p>
+
+                                <p>NetBlocker, by default, allows all traffic to prevent hard to find
+                                    problems. You need to selectively block traffic yourself by
+                                    tapping on the mobile or Wi-Fi icons.</p>
+
+                                <p>Be aware that NetBlocker will allow traffic to an application when
+                                    the screen is on and the condition <em>'when screen on'</em> is
+                                    enabled.</p>
+
+                                <p><a name="faq57"></a>
+                                    <strong>(57) Why does NetBlocker use so much data?</strong></p>
+
+                                <p>Basically, NetBlocker doesn't use data itself.
+                                    However, many Android versions incorrectly account data of other
+                                    applications flowing through NetBlocker to NetBlocker instead of to
+                                    the applications.
+                                    The data usage of other applications will be zero with NetBlocker
+                                    enabled in this case.</p>
+
+                                <p>The total data usage of your device will be the same with and
+                                    without NetBlocker.</p>
+
+                                <p><a name="faq58"></a>
+                                    <strong>(58) Why does loading the application list take a long
+                                        time?</strong></p>
+
+                                <p>The application list is provided by Android, so the loading speed
+                                    depends mostly on the power of your device and on the efficiency
+                                    of your Android version.
+                                    For example shortage of memory could lead to increased loading
+                                    times, because memory needs to be freed, for example by pausing
+                                    other applications.</p>
+
+                                <p>In some circumstances, restricting system apps and system
+                                    components is known to cause the application list to load slowly
+                                    or not at all. The exact circumstances are unknown.</p>
+
+                                <p><a name="faq59"></a>
+                                    <strong>(59) Can you help me restore my purchase?</strong></p>
+
+                                <p>Google manages all purchases, so as developer I have no control
+                                    over purchases.
+                                    So, the only thing I can do, is give some advice:</p>
+
+                                <ul>
+                                    <li>Make sure you have an active internet connection</li>
+
+                                    <li>Make sure you didn't block Google Play store / Play
+                                        services
+                                    </li>
+
+                                    <li>Make sure you are logged in with the right Google account
+                                        and that there is nothing wrong with your Google account
+                                    </li>
+
+                                    <li>Open the Play store application and wait at least a minute
+                                        to give it time to synchronize with the Google servers
+                                    </li>
+
+                                    <li>Open NetBlocker and navigate to the pro features screen;
+                                        NetBlocker will check the purchases again
+                                    </li>
+                                </ul>
+
+                                <p>Note that:</p>
+
+                                <ul>
+                                    <li>Purchases are stored in the Google cloud and cannot get
+                                        lost
+                                    </li>
+
+                                    <li>There is no time limit on purchases, so they cannot expire
+                                    </li>
+
+                                    <li>Google does not expose details (name, e-mail, etc) about
+                                        buyers to developers
+                                    </li>
+
+                                    <li>An application like NetBlocker cannot select which Google
+                                        account to use
+                                    </li>
+                                </ul>
+
+                                <p>If you cannot solve the problem with the purchase, you will have
+                                    to contact Google about it.</p>
+
+                                <p><a name="faq60"></a>
+                                    <strong>(60) Why does IP (Wi-Fi) calling/SMS/MMS not
+                                        work?</strong></p>
+
+                                <p>Please see the <a
+                                        href="https://github.com/M66B/NetBlocker/#compatibility">compatibility
+                                    section</a> about this
+                                    (you might need to request the desktop version to see this
+                                    section if you are using a mobile device).</p>
+
+                                <p><a name="faq61"></a>
+                                    <strong>(61) Help, NetBlocker crashed!</strong></p>
+
+                                <p>NetBlocker rarely crashes ("unexpectedly stopped"), but if it
+                                    crashed (which is something different than being stopped by
+                                    Android, see <a href="#user-content-faq38">this FAQ</a>),
+                                    then it is mostly caused by bugs in your Android version
+                                    (either in the <a
+                                            href="https://developer.android.com/reference/android/net/VpnService.html">Android
+                                        VPN service</a> implementation or in the <a
+                                            href="https://developer.android.com/guide/platform/index.html#linux-kernel">Android
+                                        Linux kernel</a>).
+                                    I am happy to check what the cause of a crash is and I will fix
+                                    it whenever possible, but I need a logcat captured from your PC
+                                    with the crash log for this.
+                                    Since logcats are mostly quite large, I will need the exact time
+                                    of the crash as well.
+                                    If you don't know how to capture a logcat from your PC, please
+                                    use your favorite search engine to find one of the numerous
+                                    guides.</p>
+
+                                <p><a name="faq62"></a>
+                                    <strong>(62) How can I solve 'There was a problem parsing the
+                                        package' ?</strong></p>
+
+                                <p>Likely causes are that the downloaded APK file is damaged (which
+                                    could be caused by a virus scanner)
+                                    or that you are trying to install NetBlocker on a not supported
+                                    Android version.</p>
+
+                                <p><a name="faq63"></a>
+                                    <strong>(63) Why is all DNS traffic allowed?</strong></p>
+
+                                <p>NetBlocker blocks unlike any other Android firewall on real domain
+                                    names.
+                                    For this a list of domain names and IP address needs to be
+                                    built.
+                                    For this purpose, NetBlocker allows all DNS traffic, even if the
+                                    domain name is listed in the hosts file.
+                                    However, this doesn't mean traffic to the resolved IP address is
+                                    allowed.</p>
+
+                                <p>If you don't trust the system (Google's) or your provider's DNS
+                                    servers, you can set alternative DNS servers in the advanced
+                                    settings.
+                                    Be sure to enter and confirm the addresses and to set two DNS
+                                    server addresses.
+                                    If you enter just one DNS server address, it will be used in
+                                    addition to the default DNS server addresses.</p>
+
+                                <p><a name="faq64"></a>
+                                    <strong>(64) Can you add DNS over TLS?</strong></p>
+
+                                <p>If you mean to intercept <a
+                                        href="https://en.wikipedia.org/wiki/DNS_over_TLS">DNS over
+                                    TLS</a> requests to resolve domain names,
+                                    this is not possible because DNS over TLS traffic is encrypted,
+                                    which is the whole point of DNS over TLS.</p>
+
+                                <p>If you mean to translate plain DNS to DNS over TLS, Android 9 Pie
+                                    and later already support DNS over TLS out of the box,
+                                    so it isn't worth the significant effort to add this.</p>
+
+                                <p><br/></p>
+
+                                <p><strong>NetBlocker is supported for phones and tablets only, so not
+                                    for other device types like televisions or vehicles.</strong>
+                                </p>
+
+                                <p><strong>If you didn't find the answer to your question, you can
+                                    ask your questions <a
+                                            href="http://forum.xda-developers.com/showthread.php?t=3233012">in
+                                        this forum</a> or contact me by using <a
+                                            href="https://contact.faircode.eu/">this contact
+                                        form</a></strong>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <p class="footer-brand center"> Built with
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAeCAMAAACR41cYAAABs1BMVEUAAADxOwrsLBTrJQfwIXbrKwrvLxTsIwfrIQbxJXbrKRLqKgT1KXTwI3fsNBDzMhX2I4LwdQnyOxDrLBPvImTuLhTrJw/qWBLvDKfKKCryI4K8MSL2K5rvIGPvI2XqJADvImX1JnDvJWbqWx7JKxvrLRTpWwvJJifwIHXqXSHrLhLrKxzxIJ2BBmntfxPuGF3qJQ3rJg3uImTrJw2dEVDKLBzpWw7vIHLxXRnLLSaZDEPxInLyI3LrLxf3Mw3yEKfIJR/xOx/yLXb6DeueGkvLHRvqJQvuHWCiC0HqJw/qIgagEErpWxTuImSZC0PuB6TuIWT1LwrqMQXJISDrIwrKJyj3NA+ZA0j1LAbqMACdE1LJHx3vLhHqUgryKXfuIGP2YBbqXCHKLxzrLheaBkz1XhWbEVLoVwv1KHbsOCHzNHjxOH7wK2uUFVT3dBW/MQ/uMSTLIB7uHWHLHBnqIQTqKRCjDUHMIh/rTwn0I3GkD0TqMQDxBZ/sMxrKLiLvFqvqMgGcFFXPLSvsNB3rNB+rIVPsNx3GNR3IKi3pHADtE1rKGBXoRQaeADjtAIvpHgTuE1tdL7cQAAAAiXRSTlMAFYeBeHGAfIyCfnx0byIbFRQRk5GMi4OBdRsSEJ2UioeEf3t6enp5c3BrGhgWD/ru7JiXhoaGg4KBf314d3VxbS8fEQ738/Hu6J6Tj46NjIuLi4qGhYOCgoB9fX19e3h3dHNycXFwcGw2NS0mIhkYFPHqoqGdmpGNioWCfHp3dnVzQ0M7OCopHFeezZAAAAI8SURBVDjLhZL3V9pQFMdfIAQIISQs2QIyLHsoMgWBqrVVW2eto866qrV770mYf3JvUmkp5ZT7wz33m/M533fzfQ8JNXGtGZk4m65Pf23L6Dc62oweoz9FViqV8Xv1ev2VIN0g3T5oog5GA/rWCDDPBKkDqSOgPe1gRKBX7gBz/bcU5aBpOhjVho5QBdNz6bNfktSTfkyxoKCRUKdOm71YNqaMZgvloCyYSCNShXaSOyELJacsjN3mPEGPOI6T71arVVcWpqwCThBfqdVqA8MgnXehTaEw9JcpYEYdMI0NAqMfAuaGnGtxdjt8C6Mp6I53wKQyMGV4nyXeJ4Ff+rTC6FQpx03m3VHXAwYfwwNYjsj52e3k9nmAkuMBJuugThDtk0qwUv5NvhQ63Dxk1RKQ5f30fpCf1ObCeuE7ioD5Wr7RaBg8cMKQFORtPvGRcZg2jLDEQ9SEccEAzHyC/xsZn7iQ5gof9iIwV9EkjK/f/+3zse1DeAXmWP8kTpcM84YAu/li4PyClIlVwdW51SAmlomxH88fL35CQmGStQ9YubBuNKv3yL2L0EHygLUoM8Omrjsl+P280s6cW9qut6FbBmaZz1l2mTPHWbt9vP/4cJ0+tD6uoc0uCBtzi9x+1pPwsKbZ2Ox91FXM0dYRo/a99WGMEleaUK+6Cea48DaUMMV6MrH22xjcEtbt72PryRS1VltRTeoJzKS1aoV1e5dfIpao0P+Lv/d4H2YGmJk+zBIwsj7Ml0hz8nPXt587UdOl085PrAAAAABJRU5ErkJggg=="
+                     alt="heart" class="heart-logo">
+                by
+                <a href="https://www.aqweeb.com/" target="_blank">Aqua Society</a>
+            </p>
+        </main>
+    </div>
+</div>
+
+</body>
+
+</html>
